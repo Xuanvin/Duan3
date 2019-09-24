@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apduantotnghiep">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".facebook"></activity>
+        <activity android:name=".login" />
+        <activity android:name=".Fragment1.Fragment2.ViTri" />
+        <activity android:name=".Fragment1.Fragment2.MayTinhBan" />
+        <activity android:name=".Fragment1.Fragment2.DongHo" />
+        <activity android:name=".Fragment1.Fragment2.Laptop" />
+        <activity android:name=".Fragment1.Fragment2.DienThoai" />
+        <activity android:name=".Fragment1.Fragment2.NoiBat" />
+        <activity android:name=".Fragment1.MaQR" />
+        <activity android:name=".Fragment2.Tab3" />
+        <activity android:name=".Fragment2.Tab2" />
+        <activity android:name=".Fragment2.Tab1" />
+        <activity
+            android:name=".Main4Activity"
+            android:label="@string/title_activity_main4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Fragment1.TaiKhoan" />
+        <activity android:name=".Fragment1.GioHang" />
+        <activity android:name=".Fragment1.LichSuGiaoDich" />
+        <activity android:name=".Fragment1.Tintuc" />
+        <activity android:name=".Fragment1.TrangChu" />
+        <activity
+            android:name=".Fragment.Home"
+            android:hardwareAccelerated="true"
+            android:label="@string/title_activity_mang_hinh_trang_chu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Fragment.thunghiem" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MangHinhTrangChu"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

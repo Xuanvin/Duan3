@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_format"
+            android:title="Nỗi bật" />
+        <item
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/ic_phone"
+            android:title="Điện thoại" />
+        <item
+            android:id="@+id/nav_laptop"
+            android:icon="@drawable/ic_laptop"
+            android:title="Laptop" />
+        <item
+            android:id="@+id/nav_table"
+            android:icon="@drawable/ic_tablet"
+            android:title="Máy tính bản " />
+        <item
+            android:id="@+id/nav_watch"
+            android:icon="@drawable/ic_watch"
+            android:title="Đồng Hồ" />
+    </group>
+
+<item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_map"
+                android:title="Tìm vị trí shop" />
+            <item
+                android:id="@+id/nav_baohanh"
+                android:icon="@drawable/baohanh"
+                android:title="Bảo hành" />
+            <item
+                android:id="@+id/nav_email"
+                android:icon="@drawable/ic_email"
+                android:title="Góp ý,bão lỗi app(3.4.0)"
+                />
+            <item
+                android:id="@+id/nav_hotro"
+                android:icon="@drawable/ic_call"
+                android:title="Tổng đài: 1800.1060"
+                />
+
+            <item
+                android:id="@+id/nav_khieunai"
+                android:icon="@drawable/ic_call"
+                android:title="Khiếu nại:1800.1062" />
+        </menu>
+</item>
+
+</menu>
